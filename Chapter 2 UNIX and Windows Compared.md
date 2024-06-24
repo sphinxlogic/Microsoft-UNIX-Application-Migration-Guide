@@ -28,7 +28,7 @@ Kernel mode is a highly privileged mode of operation where program code has dire
 
 Figure 2 is a high-level illustration of Windows NT architecture.
 
-
+<img src="images/figure 2.png">
 
 Figure 2. Windows NT architecture
 
@@ -44,7 +44,7 @@ Single compatible implementation
 UNIX Evolution and Architecture
 In 1969, Bell Laboratories developed UNIX as a timesharing system (the term used at that time to describe a multitasking operating system that supported many users at terminals). Although the first implementation was written in assembly language, the designers always intended for UNIX to be written in a higher-level language. Thus, Bell Labs invented the C language so that they could rewrite UNIX. UNIX has evolved into a popular operating system that runs on computers ranging in size from personal computers to mainframes.
 
-Figure 3 shows the evolution of UNIX from a single code base into the wide variety of UNIX systems available today. In fact, this is only a summary–there are more than fifty flavors of UNIX in use today. The codes on the diagram refer to the brands and versions of UNIX that are in common use, including: 
+Figure 3 shows the evolution of UNIX from a single code base into the wide variety of UNIX systems available today. In fact, this is only a summary–there are more than fifty flavors of UNIX in use today. The codes on the diagram refer to the brands and versions of UNIX that are in common use, including:
 
 AIX from IBM 
 Solaris from SUN Microsystems 
@@ -57,6 +57,8 @@ For further information, please refer to Chapter 4.
 
 Figure 3. The history of UNIX implementations
 
+<img src="images/figure 3.png"> 
+
 UNIX became popular with computer manufacturers because it was written in a high-level language and was thus portable. Computer manufacturers could buy the rights to the UNIX source and modify it to make it run on their hardware. Although this portability greatly aided the acceptance of UNIX, it also created incompatible versions, which became one of the greatest problems for the developers of UNIX applications.
 
 The architecture of UNIX can be divided into three levels of functionality, as shown in Figure 4. The lowest level is the kernel which schedules tasks, manages resources, and controls security. The next level is the shell, which acts as the user interface, interpreting user commands and starting applications. The highest level is utilities, which provides useful utility functions. (For more information about the shell, see the "Shells and Scripting" section later in this chapter.)
@@ -64,6 +66,8 @@ The architecture of UNIX can be divided into three levels of functionality, as s
 
 
 Figure 4. Structure of the UNIX operating system
+
+<img src="images/figure 4.png"> 
 
 The UNIX operating system supports the following features and capabilities: 
 

@@ -1,4 +1,5 @@
 Introduction
+
 Welcome to the UNIX Migration Guide. This guide is designed to give you the best information available about the issues that you are likely to face if you are contemplating or have decided on greater integration between your UNIX and Microsoft® Windows® operating system environments. If you are a senior IT decision maker, network manager or operating system administrator, then this guide has been designed with you in mind. In addition, a large part of this document covers the detailed changes that need to be made at a coding level, making it a valuable resource for developers.
 
 In the first few chapters, you will look at the planning and practical issues involved in migration or co-existence between UNIX and Windows. These chapters discuss whether a move to Windows is the best choice for your organization and provide a review of the different ways in which such a migration can be done.

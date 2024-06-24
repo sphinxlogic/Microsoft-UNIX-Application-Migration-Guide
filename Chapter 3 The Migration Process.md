@@ -29,7 +29,7 @@ Figure 1 shows a typical organization, including some of the departments that ar
 
 Figure 1. A conceptual organization and its application life cycle
 
-<img src="images/figure 1.2.png">
+<img src="images/figure1.2.png">
 
 Your migration will have an effect on all of the departments and systems shown in this figure. Later sections of this chapter describe how you can estimate the impact on your business.
 
@@ -40,7 +40,7 @@ A migration process can be organized many different ways. No two UNIX-to-Windows
 
 Figure 2. The generic migration process
 
-<img src="images/figure 1.3.png">
+<img src="images/figure1.3.png">
 
 The following sections provide a high-level description of each of these steps to help you make initial decisions and begin planning the migration.
 
@@ -71,7 +71,7 @@ The information you collect from these sources will allow you to develop a migra
 
 Figure 3. The migration strategy
 
-<img src="images/figure 1.4.png">
+<img src="images/figure1.4.png">
 
 The following list contains some questions that can yield the information you need to make appropriate migration decisions (a more complete list is provided in Chapter 4, Assessment and Analysis): 
 
@@ -442,7 +442,7 @@ This chapter broadly describes the migration process. Figure 4 summarizes the ba
 
 Figure 4. The migration process and key deliverables
 
-<img src="images/figure 1.5.png">
+<img src="images/figure1.5.png">
 
 You can now begin the migration process by initiating the assessment and analysis stage, which is described in the next chapter.
 

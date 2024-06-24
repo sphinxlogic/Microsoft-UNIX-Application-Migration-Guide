@@ -13,9 +13,9 @@ In the late 1980s, Microsoft began to design a new operating system that could t
 
 Figure 1 illustrates the evolutionary development of the Windows family of operating systems, culminating in today's Windows XP and soon in Microsoft Windows Server 2003. Windows XP is built on the robust and high-performance Windows NT kernel and incorporates many of the best features of Microsoft Windows 98 and Microsoft Windows Millennium Edition (Windows Me). These features include Plug and Play support, an intuitive user interface, and many innovative support services.
 
-
-
 Figure 1. The evolution of the Windows family of operating systems
+
+<img src="images/figure1.png">
 
 Windows NT Architecture
 Windows NT architecture uses two processor access modes: user mode and kernel mode.

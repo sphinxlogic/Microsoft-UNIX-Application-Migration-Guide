@@ -345,7 +345,6 @@ Security permissions
 When a user logs on to the system by entering a user name and a password, UNIX starts a shell with the UID and GID of that user. From then on, all access to files and other resources is controlled by the permissions assigned to the UID and GID or the process. The UIDs and GIDs are configured in two files, /etc/passwd and /etc/group.
 
 Each file in the file system has a bitmap that defines its permissions. The permissions grantable are read, write, and execute. These permissions are grouped in three sets: the owner of the file, the owner's group, and everybody else (world). A full (long) listing for a file shows the file permissions as a group of nine characters that indicate the permissions for owner, group, and world. The characters r, w, x, and - are used to indicate read, write, execute, and no permission, respectively. For example, if the owner of a file has all permissions but the group and world have only read permission, the string is as follows:
-
 rwxr--r--
 
 Note   Some UNIX implementations have extended the basic security model to include access control lists (ACLs) similar to those used in Windows. However, ACLs are not implemented consistently across all versions of UNIX.
@@ -367,6 +366,8 @@ Figure 5 illustrates the Windows security model and the relationship between the
 
 
 Figure 5. The Windows security model
+
+<img src="images/figure 5.png"> 
 
 Access tokens
 An access token is a data structure associated with every process that is started by a particular user (and is associated with that user's logon session). The access token identifies who the user is and what security groups he or she is a member of. Although users and groups have human-readable names to ease administration, they are uniquely identified internally (for performance reasons) by security identifiers (SIDs).
